@@ -38,6 +38,7 @@ html {
   width: 30rem;
   z-index: 100;
   transition: left 0.8s;
+  z-index: 300;
 }
 
 .container.change .banner {
@@ -84,8 +85,8 @@ html {
   cursor: pointer;
 }
 
-.signup-form {
-  width: 60rem;
+/* .signup-form {
+  /* width: 60rem;
   height: 100%;
   position: absolute;
   top: 0;
@@ -96,16 +97,8 @@ html {
   align-items: center;
   padding: 10rem 0;
   transition: left 1.5s cubic-bezier(0.19, 1, 0.22, 1);
-}
+} */ */
 
-.container.change .signup-form {
-  left: 40rem;
-}
-
-.signup-form h1 {
-  font-size: 4rem;
-  color: #3aaf9f;
-}
 
 .social-media {
   display: flex;
@@ -124,11 +117,11 @@ html {
   color: #555;
 }
 
-.signup-form p {
+/* .signup-form p {
   font-size: 1.8rem;
   color: #555;
   margin-bottom: 2rem;
-}
+} */
 
 .input-group {
   position: relative;
@@ -152,7 +145,7 @@ html {
   color: #555;
 }
 
-.signup-form button {
+/* .signup-form button {
   width: 16rem;
   height: 5rem;
   background-color: #3aaf9f;
@@ -163,4 +156,4 @@ html {
   color: #fff;
   margin-top: 3rem;
   cursor: pointer;
-}
+} */

@@ -13,9 +13,7 @@ const SignUp = () => {
   return (
     <div className={`container${isColorChange ? "change" : ""}`}>
       <div className="form-wrapper">
-        <div className="banner">
-          <Banner />
-        </div>
+        <Banner />
         <div className="green-bg">
           <button type="button" onClick={handleColorChange}>
             Sign Up

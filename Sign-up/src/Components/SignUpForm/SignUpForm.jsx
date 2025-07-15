@@ -1,6 +1,5 @@
 import React from "react";
 import SocialMediaIcons from "../SocialMedias/SocialMedias";
-import "./SignUpForm.css";
 
 const SignUpForm = () => {
   return (

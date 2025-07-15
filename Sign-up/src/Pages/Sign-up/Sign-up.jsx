@@ -11,7 +11,7 @@ const SignUp = () => {
   };
 
   return (
-    <div className={`container${isColorChange ? "change" : ""}`}>
+    <div className={`container${isColorChange ? " change" : ""}`}>
       <div className="form-wrapper">
         <Banner />
         <div className="green-bg">

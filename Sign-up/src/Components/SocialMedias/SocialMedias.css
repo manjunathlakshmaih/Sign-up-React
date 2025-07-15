@@ -1,0 +1,16 @@
+.social-media {
+  display: flex;
+}
+
+.social-media a {
+  width: 4rem;
+  height: 4rem;
+  border: 0.1rem solid #777;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 2rem;
+  font-size: 2rem;
+  color: #555;
+}
